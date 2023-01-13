@@ -64,8 +64,6 @@
 }
 
 .nav-list-item {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
@@ -74,17 +72,11 @@
 }
 .nav-list-item:hover,
 nav-list-item:focus {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--ocean);
 }
 .mail-telephone-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -93,9 +85,6 @@ nav-list-item:focus {
 
 .mail-telephone-item:hover,
 .mail-telephone-item:focus {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -132,8 +121,6 @@ nav-list-item:focus {
 
 /* features */
 .features-item {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -145,8 +132,6 @@ nav-list-item:focus {
   background-color: var(--cloud);
 }
 .section-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -157,8 +142,6 @@ nav-list-item:focus {
 /* our team */
 /* do i need to do white background color in this task?*/
 .team-name {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -169,14 +152,13 @@ nav-list-item:focus {
 /* footer */
 .footer {
   background-color: var(--navy-blue);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cornflower);
 }
+/*  line-height was different with header logo */
 .logo-footer {
   font-family: "Raleway";
   font-style: normal;
@@ -219,8 +201,6 @@ nav-list-item:focus {
   cursor: pointer;
 }
 .gallery-item {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
