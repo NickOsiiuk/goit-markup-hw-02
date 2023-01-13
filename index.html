@@ -5,59 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body>
+  <body class="page">
     <!-- Header -->
     <header>
       <nav>
-        <a href="./">WebStudio</a>
-        <ul>
-          <li><a href=""> Studio</a></li>
-          <li><a href="./portfolio.html.html"> Portfolio</a></li>
-          <li><a href=""> Contacts</a></li>
+        <a class="logo" href="./"
+          >WEB<span class="logo-web-dark">STUDIO</span></a
+        >
+        <ul class="list-style">
+          <li>
+            <a class="nav-list-item" href="./">Studio</a>
+          </li>
+          <li>
+            <a class="nav-list-item" href="./portfolio.html.html"> Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-list-item" href=""> Contacts</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11(000)111-11-11</a></li>
+      <ul class="list-style">
+        <li>
+          <a class="mail-telephone-item" href="mailto:info@devstudio.com">
+            info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="mail-telephone-item" href="tel:+110001111111"
+            >+11(000)111-11-11</a
+          >
+        </li>
       </ul>
     </header>
 
     <main>
       <!--hero section  -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">order service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
 
       <!-- features-->
       <section>
         <h2 hidden>features</h2>
-        <ul>
+        <ul class="list-style">
           <li>
-            <h3>Strategy</h3>
+            <h3 class="features-item">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="features-item">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="features-item">Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
+            <h3 class="features-item">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -67,8 +90,9 @@
       </section>
       <!-- What are we doing -->
       <section>
-        <h2>What Are We Doing</h2>
-        <ul>
+        <h2 class="section-title">What Are We Doing</h2>
+
+        <ul class="list-style">
           <li>
             <img
               src="./images/main-page/what-are-we-doing/monitor.jpg"
@@ -96,9 +120,9 @@
         </ul>
       </section>
       <!-- Our Team -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
+      <section class="our-team">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="list-style">
           <li>
             <img
               src="./images/main-page/our-team/mark-guerrero.jpg"
@@ -106,7 +130,7 @@
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
+            <h3 class="team-name">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
@@ -116,7 +140,7 @@
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
+            <h3 class="team-name">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
@@ -126,25 +150,27 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garsia</h3>
+            <h3 class="team-name">Camila Garsia</h3>
             <p>Marketing</p>
           </li>
           <li>
             <img
-              src="./images/our-team/daniel-wilson.jpg"
+              src="./images//main-page/our-team/daniel-wilson.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
+            <h3 class="team-name">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--footer  -->
-    <footer>
-      <a href="./">WebStudio</a>
+    <footer class="footer">
+      <a class="logo-footer" href="./"
+        >WEB<span class="logo-web-light">STUDIO</span></a
+      >
       <p>
         Increase the flow of customers and sales for your business with digitel
         marketing &#38; growth solutions.
